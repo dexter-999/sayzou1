@@ -1,0 +1,296 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hheader{
+    float: left;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to left,#f8f8f8,cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.header1{
+    background: #0f054a;
+    padding:1em 0;
+    padding-bottom: 55px;
+}
+.header1 ul li{
+    display: inline;
+}
+.header1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+    float: right;
+    margin:0 35px;
+}
+.header1 ul li a:hover{
+    text-decoration: underline;
+    color: cyan;
+    text-shadow: 0px 0px 10px #00204a,
+    0px 0px 20px #00204a,
+    0px 0px 40px #00204a,
+    0px 0px 80px #00204a; 
+}
+.header1 ul li a:active{
+    text-decoration: underline;
+    color: cyan;
+    text-shadow: 0px 0px 10px rgba(0, 0, 255, 0.477),
+    0px 0px 20px #00204a,
+    0px 0px 40px #00204a,
+    0px 0px 80px #00204a; 
+}
+.header2{
+    background: #00204a;
+    padding:1em 0;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+li{
+    flex-direction: row-reverse;
+}
+.header2 ul li{
+    display: inline;
+    float: right;
+    margin-right: 7%;
+}
+.header2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+    margin:0 35px;
+
+}
+.header2 ul li a:hover{
+    color: hsla(180, 100%, 50%, 0.728);
+    text-shadow: 0px 0px 10px #00204a,
+    0px 0px 20px #00204a,
+    0px 0px 40px #00204a,
+    0px 0px 80px #00204a; 
+}
+.header2 ul li a:active{
+    text-decoration: underline;
+    color: cyan;
+    text-shadow: 0px 0px 10px rgba(0, 0, 255, 0.477),
+    0px 0px 20px #00204a,
+    0px 0px 40px #00204a,
+    0px 0px 80px #00204a; 
+}
+.sect1{
+    height: 1920px;
+    width: 1200px;
+    margin-left: 13%;
+    border-radius: 15px;
+}
+#d1{
+    float: left;
+    background-image: url('../media/ss6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    transition: slider 0.6s infinite ;
+    cursor:pointer;
+
+}
+/* #d1:hover{
+    width: 300px;
+    height: 300px;
+    scale: 1 1;
+    cursor: pointer;
+} */
+.d1d1{
+    float: right;
+    width: 400px;
+    margin-right: 35%;
+}
+.d2{
+    float: right;
+    background-image: url('../media/ss1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.6s ease-in-out;
+    cursor:pointer;
+
+}
+
+/* .d2:hover{
+    width: 300px;
+    height: 300px;
+    scale: 1 1;
+    cursor: pointer;
+} */
+.d2d2{
+    float: left;
+    width: 400px;
+    margin-left: 35%;
+}
+.d3{
+    float: left;
+    background-image: url('../media/ss2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.6s ease-in-out;
+    cursor:pointer;
+
+}
+/* .d3:hover{
+    width: 300px;
+    height: 300px;
+    scale: 1 1;
+    cursor: pointer;
+} */
+.d3d3{
+    float: right;
+    width: 400px;
+    margin-right: 35%;
+}
+.d4{
+    float: right;
+    background-image: url('../media/ss3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.6s ease-in-out;
+    cursor:pointer;
+
+}
+/* .d4:hover{
+    width: 300px;
+    height: 300px;
+    scale: 1 1;
+    cursor: pointer;
+} */
+.d4d4{
+    float: left;
+    width: 400px;
+    margin-left: 35%;
+}
+.d5{
+    float: left;
+    background-image: url('../media/ss4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.6s ease-in-out;
+    cursor:pointer;
+
+}
+
+/* .d5:hover{
+    width: 300px;
+    height: 300px;
+    scale: 1 1;
+    cursor: pointer;
+} */
+.d5d5{
+    float: right;
+    width: 400px;
+    margin-right: 35%;
+}
+.d6{
+    float: right;
+    background-image: url('../media/ss5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.6s ease-in-out;
+    cursor:pointer;
+}
+/* .d6:hover{
+    width: 300px;
+    height: 300px;
+    scale: 1 1;
+    cursor: pointer;
+} */
+.d6d6{
+    float: left;
+    width: 400px;
+    margin-left: 35%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 30px;
+}
+.h7:hover,.h8:hover,.h9:hover,.h10:hover{
+    background: linear-gradient(to left,#0f054a 50%,cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 300px;
+    padding: 15px;
+    background-color: #00204a;
+    color: white;
+}
+li{
+    list-style: none;
+    font-size: 21px;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 50px;
+    padding: 15px;
+    background-color: #00204a;
+    color: white;
+    margin-bottom: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+footer li:hover{
+    color: #18529e;
+}
+footer ul li{
+    display: inline;
+    margin:0 18px;
+    margin-left: 0%;
+    font-size: 30px;
+}
+footer ul li:hover{
+    color: #18529e;
+}
+.pinfo{
+    text-align: justify;
+    /* margin-right: 37%; */
+}
+
+
+
+

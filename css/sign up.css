@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    background: linear-gradient(to left,cyan 30%,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label{
+    background: linear-gradient(to left,#00204a,cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+section{
+    width: 50%;
+    height:840px;
+    background-color: transparent;
+    border-radius:15px;
+    padding: 20px 1px 1px 20px  ;
+    border: 1px solid rgb(0, 76, 76);
+    margin-left: 28%;
+    margin-top:10%;
+}
+section input{
+    height:45px ;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+}
+#btn-c{
+    height:40px ;
+    width: 120px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(10, 178, 178);
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    margin-left: 28%;
+
+}
+#btn-c:hover{
+    width: 200px;
+    background-color:  rgb(4, 70, 70);
+    text-shadow: 0px 0px 10px  rgb(4, 70, 70),
+    0px 0px 20px rgb(4, 70, 70),
+    0px 0px 40px  rgb(4, 70, 70),
+    0px 0px 80px  rgb(4, 70, 70); 
+    color: white;
+    filter: drop-shadow(0px 0px 20px black);
+    scale:1.01;
+    text-align: center;
+    margin-left: 20%;
+}
+.a2{
+    float: right;
+    margin-right: 15%;
+    font-size: 21px;
+    text-decoration: none;
+    background: linear-gradient(to left,cyan 10%,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.a1{
+    font-size: 21px;
+    text-decoration: none;
+    background: linear-gradient(to left,cyan 10%,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#inp1{
+    height: 20px;
+    width: 20px;
+}

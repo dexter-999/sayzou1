@@ -1,0 +1,24 @@
+$(document).ready(function(){
+    $('#d1').animate({
+        left:"200px",
+        top:"500px",
+    })
+});
+$(document).ready(function(){
+    $('.d2').animate({
+        left:"200px",
+        top:"500px",
+    })
+});
+$(document).ready(function(){
+    $('.d3').animate({
+        left:"200px",
+        top:"500px",
+    })
+});
+$(document).ready(function(){
+    $('.d4').animate({
+        left:"200px",
+        top:"500px",
+    })
+});

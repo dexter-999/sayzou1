@@ -1,0 +1,140 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 100px;
+}
+.d1{
+    background-color: #f8f8f8;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+.d2{
+    background-color:#f8f8f8;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+.d3{
+    background-color:#f8f8f8;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 170px;
+}
+p{
+    text-align: center;
+}
+#btn{
+    width:220px ;
+    height:60px ;
+    padding: 5px;
+    font-size:18px ;
+    border:none ;
+    border-radius:10px; ;
+    color:white ;
+    background-color:#0f054a ;
+    text-align: center;
+    margin-left: 42%;
+    margin-bottom: 10px;
+    cursor: pointers;
+}
+#btn:hover{
+    background-color: #0f054a9d;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 50px;
+    padding: 15px;
+    background-color: #00204a;
+    color: white;
+    margin-bottom: 30px;
+}
+.h7:hover,.h8:hover,.h9:hover,.h10:hover{
+    background: linear-gradient(to left,#00204a,cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+li{
+    list-style: none;
+    font-size: 21px;
+}
+.header1{
+    background: #0f054a;
+    padding:1em 0;
+    padding-bottom: 55px;
+}
+.hheader{
+    float: left;
+    font-size: 28px;
+    background: linear-gradient(to left,#f8f8f8,cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.header1 ul li{
+    display: inline;
+}
+.header1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+    float: right;
+    margin:0 35px;
+}
+.header1 ul li a:hover{
+    text-decoration: underline;
+    color: cyan;
+    text-shadow: 0px 0px 10px #00204a,
+    0px 0px 20px #00204a,
+    0px 0px 40px #00204a,
+    0px 0px 80px #00204a; 
+}
+.header1 ul li a:active{
+    text-decoration: underline;
+    color: cyan;
+    text-shadow: 0px 0px 10px rgba(0, 0, 255, 0.477),
+    0px 0px 20px #00204a,
+    0px 0px 40px #00204a,
+    0px 0px 80px #00204a; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+footer li:hover{
+    color: #18529e;
+}
+footer ul li{
+    display: inline;
+    margin:0 18px;
+    margin-left: 0%;
+    font-size: 30px;
+}
+footer ul li:hover{
+    color: #18529e;
+}
+.pinfo{
+    text-align: justify;
+    /* margin-right: 37%; */
+}
+section{
+    margin-bottom: 30px;
+}
